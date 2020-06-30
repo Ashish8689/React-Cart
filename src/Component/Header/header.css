@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body{
+  overflow-x:hidden;
+}
+
+.nav{
+    margin: 0 auto;
+	width: 90%;
+    margin-top: 30px;
+	height: 12vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	z-index: 1000;
+	/* position: fixed; */
+}
+
+.logo{
+    margin-left:50px;
+}
+.logo img{
+  max-width: 60px;
+  height: auto;
+}
+
+.cart{
+    margin-right: 50px;
+    position: relative;
+}
+
+.cart i{
+	color: black;
+    font-size: 20px!important;
+	margin-bottom: 7px!important;
+    cursor: pointer;
+}
+
+.cart p{
+  position: absolute;
+  top: -7px;
+  right: -12px;
+  background-color: slategray;
+  border-radius: 50%;
+  width: 20px;
+  font-size: 12px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.side-menu ul{
+    margin-top: 15px;
+}
+
+
+.side-menu ul li{
+    display: inline-block;
+     padding:0 25px;
+	 list-style: none;
+	 font-size: 14px;
+	 cursor: pointer;
+	 color: black;
+    transition:.3s;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+
+.side-menu ul li:hover{
+	color: #4bc2c5;
+}
+
+
+
